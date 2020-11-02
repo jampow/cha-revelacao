@@ -1,0 +1,13 @@
+tzid: America/Sao_Paulo
+local:
+  summary: Chá revelação (Rosa ou Luigi)
+  dtstart: 20201108T150000
+  dtend: 20201108T170000
+  location: Rua dos parecis, 29, salão de festas
+virtual:
+  summary: Chá revelação (Rosa ou Luigi)
+  dtstart: 20201108T163000
+  dtend: 20201108T170000
+  description: https://youtu.be/cf6XQ3bgA1U
+youtube: https://youtu.be/cf6XQ3bgA1U
+

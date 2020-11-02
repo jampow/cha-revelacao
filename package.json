@@ -1,0 +1,24 @@
+{
+  "name": "cha-revelacao",
+  "version": "1.0.0",
+  "description": "## Link da transmissão no youtube",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jampow/cha-revelacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jampow/cha-revelacao/issues"
+  },
+  "homepage": "https://github.com/jampow/cha-revelacao#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "yaml": "^1.10.0"
+  }
+}
