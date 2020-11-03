@@ -3,7 +3,7 @@
 ## Link da transmissão no youtube
 
 ![qr code para o link do youtube](assets/youtube-live.png)
-https://youtu.be/Dz5vDWLTziQ
+https://youtu.be/gchSYd324vU
 
 ## Convite virtual
 
