@@ -14,7 +14,8 @@ const download = function(uri, filename) {
 // event url google chart
 // https://chart.apis.google.com/chart?cht=qr&chs=350x350&chld=L&choe=UTF-8&chl=BEGIN%3AVEVENT%0D%0ASUMMARY%3ATest%0D%0ADTSTART%3BVALUE%3DDATE%3A20120124%0D%0ADTEND%3BVALUE%3DDATE%3A20120125%0D%0AEND%3AVEVENT%0D%0A
 
-const mountFields = data => Object.keys(data).map(key => `${key.toUpperCase()}${key.substr(0,2) === 'dt' ? ';TZID='+config.tzid : ''}:${data[key]}`)
+const mountFields = data => Object.keys(data)
+  .map(key => `${key.toUpperCase()}:${data[key]}`)
 
 const eventTemplate = (data) => [
   'BEGIN:VEVENT',
